@@ -15,10 +15,10 @@ const geistSans = localFont({
 });
 
 export const metadata = {
-  title: "Fr3zy - Fullstack Developer Portfolio",
-  description: "Experienced fullstack developer specializing in modern web technologies. View my projects, skills, and experience.",
-  keywords: "fullstack developer,backend developer, frontend developer, web development, JavaScript,JS, C#, CSharp, React, Node.js, portfolio",
-  author: "Fr3zy",
+  title: "Vivekanand | ENTC Engineer Portfolio",
+  description: "ENTC Engineer specializing in VLSI, Edge AI, Embedded Machine Learning, and Robotics.",
+  keywords: "ENTC, VLSI, Edge AI, Embedded Systems, Robotics, IoT, Portfolio",
+  author: "Vivekanand",
   robots: "index, follow",
 };
 
