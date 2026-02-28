@@ -3,109 +3,112 @@ import { HiCode, HiCube, HiDatabase, HiMail } from "react-icons/hi";
 
 export const config = {
     developer: {
-        name: "Fr3zy",
+        name: "Vivekanand",
     },
     social: {
-        github: "Fr3zyy",
-        discord: "1155137511954337887"
+        github: "Vvkswami7",
+        discord: "" // You can add your Discord ID here later
     },
     NAV_ITEMS: [
         { href: '/projects', label: 'Projects' },
         { href: '/contact', label: 'Contact' }
     ],
-    recentTracks: true, // Enable/disable Spotify recent tracks
+    recentTracks: false, 
     projects: [
         {
             id: 1,
-            title: "Personal Portfolio Website",
-            description: "A modern and responsive portfolio website to showcase my projects, skills, and experiences. Built with Next.js and styled using TailwindCSS, this site provides a seamless user experience and a clean design that adapts to all devices.",
-            image: "/projects/portfolio-app.png",
-            technologies: ["Next.js", "TailwindCSS", "Framer Motion", "Vercel"],
-            github: "https://github.com/fr3zyy/portfolio-website",
-            demo: "https://fr3zy.vercel.app"
+            title: "Sentinel-X",
+            description: "An AI-powered accident detection system developed for the IBM Dev Day AI Demystified Hackathon. Focuses on real-time analysis and rapid emergency response.",
+            image: "", 
+            technologies: ["AI", "Python", "Computer Vision"],
+            github: "https://github.com/Vvkswami7",
+            demo: ""
         },
         {
             id: 2,
-            title: "Code Share Website",
-            description: "A platform that allows users to share and review their code and profiles.",
-            image: "/projects/code-share-app.png",
-            technologies: ["Next.js", "MongoDB", "Express"],
-            demo: "https://nirvania.xyz"
+            title: "CityShield",
+            description: "A distributed car tracking architecture built for the Microsoft Imagine Cup, designed to enhance urban vehicle monitoring and security.",
+            image: "",
+            technologies: ["IoT", "Distributed Systems", "Cloud"],
+            github: "https://github.com/Vvkswami7",
+            demo: ""
         },
         {
             id: 3,
-            title: "Wytra Bot",
-            description: "Enhance your server, simplify moderation, and boost engagement with a versatile Discord bot equipped with customizable commands and powerful features.",
-            image: "/projects/wytra-bot-app.png",
-            technologies: ["React", "Discord.js", "Node.js", "MongoDB"],
-            github: "https://github.com",
-            demo: "https://wytra.fun"
+            title: "ACRE (Aadhaar Cohort Engine)",
+            description: "A specialized data engine developed during the Aadhaar Hackathon to process and manage specific cohort data efficiently.",
+            image: "",
+            technologies: ["Data Processing", "Backend Architecture"],
+            github: "https://github.com/Vvkswami7",
+            demo: ""
+        },
+        {
+            id: 4,
+            title: "Autonomous Self-Balancing Robot",
+            description: "Engineered a two-wheeled balancing robot from scratch. Wrote the Arduino control logic and successfully calibrated motor friction and Bluetooth connectivity.",
+            image: "",
+            technologies: ["Arduino", "C / C++", "Hardware Integration", "Robotics"],
+            github: "https://github.com/Vvkswami7",
+            demo: ""
         }
     ],
     skills: [
         {
-            title: "Frontend",
+            title: "Hardware & Embedded",
             icon: <HiCode />,
-            description: "Modern web interfaces",
+            description: "Core ENTC skills",
             bgClass: "bg-blue-500/10",
             iconClass: "text-blue-500",
             skills: [
-                { name: "Next.js 15", level: "Advanced", hot: true },
-                { name: "React", level: "Advanced" },
-                { name: "TailwindCSS", level: "Expert" },
-                { name: "JavaScript", level: "Advanced" },
-                { name: "Framer Motion", level: "Intermediate" }
+                { name: "VLSI / Chip Design", level: "Advanced", hot: true },
+                { name: "Microcontrollers", level: "Advanced" },
+                { name: "IoT Systems", level: "Expert" },
+                { name: "Robotics", level: "Advanced" }
             ]
         },
         {
-            title: "Backend",
+            title: "AI & Software",
             icon: <HiDatabase />,
-            description: "Server & Database",
+            description: "Programming & Intelligence",
             bgClass: "bg-emerald-500/10",
             iconClass: "text-emerald-500",
             skills: [
-                { name: "Node.js", level: "Advanced", hot: true },
-                { name: "MongoDB", level: "Advanced" },
-                { name: "Express.js", level: "Advanced", hot: true }
+                { name: "C / C++", level: "Advanced", hot: true },
+                { name: "Edge AI", level: "Advanced" },
+                { name: "Embedded ML", level: "Advanced", hot: true },
+                { name: "Agentic AI", level: "Intermediate" }
             ]
         },
         {
             title: "Programs & Tools",
             icon: <HiCube />,
-            description: "Development & Productivity Tools",
+            description: "Development Workflow",
             bgClass: "bg-orange-500/10",
             iconClass: "text-orange-500",
             skills: [
                 { name: "VS Code", level: "Expert", hot: true },
-                { name: "Postman", level: "Advanced" },
-                { name: "Photoshop", level: "Intermediate" },
-                { name: "Git", level: "Advanced" }
+                { name: "Git & GitHub", level: "Advanced" },
+                { name: "Linux", level: "Intermediate" }
             ]
         }
     ],
     contactInfo: [
         {
-            icon: <FaDiscord className="w-5 h-5" />,
-            label: "Discord",
-            value: "fr3zy",
-            link: `https://discord.com/users/1155137511954337887`
-        },
-        {
             icon: <FaGithub className="w-5 h-5" />,
             label: "GitHub",
-            value: "@fr3zy",
-            link: `https://github.com/fr3zyy`
+            value: "@Vvkswami7",
+            link: `https://github.com/Vvkswami7`
         },
         {
             icon: <HiMail className="w-5 h-5" />,
             label: "Email",
-            value: "fr3zy@example.com",
-            link: "mailto:fr3zy@example.com"
+            value: "Contact Me", // Change to your actual email later if you want
+            link: "#"
         },
         {
             icon: <FaMapPin className="w-5 h-5" />,
             label: "Location",
-            value: "Turkey",
+            value: "Maharashtra, India",
             link: null
         }
     ]
